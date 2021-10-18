@@ -1,0 +1,16 @@
+body {
+    background-image: url('code_image.jpg');
+    margin: 0px;
+}
+
+nav {
+    background: #535353;
+    width: 100%;
+    height: 200px;
+}
+
+div {
+    background : rgb(27, 49, 27);
+    width: 50%;
+    height: 100px;
+}
