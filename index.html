@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <title>TheSandClub</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="index2.js"></script>
+</head>
+<body>
+
+    <div class="navbar">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li class="login"><a class="active" href="Login.html">Login</a></li>
+            <li class="login"><a class="active" href="SignUp.html">Sign Up</a></li>
+            <li></li>
+        </ul>
+    </div>
+
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">The Sand Club</h1>
+        <p class="splash-subhead">
+            Find pickup ball at all levels near you
+        </p>
+    </div>
+</div>
+
+<div class="content-wrapper">
+    <div class="content">
+        <h2 class="content-head is-center">A place for central Arizona beach volleyball players to find pickup</h2>
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead">
+                    <i class="fa fa-rocket"></i>
+                    Easy Sign-Up
+                </h3>
+                <p class="center">
+                    Register for an account and let us know your availability and where you'd like to play, we'll do the rest.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-mobile"></i>
+                    Easily find games.
+                </h3>
+                <p class="center">
+                    You can add your interest to meetups to meetups to receive notifications on if enough people are interested in play.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-th-large"></i>
+                    Appropriate Competition
+                </h3>
+                <p class="center">
+                    Enter the level of play you feel comfortable with and we'll ensure you que with players close to your skill level.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-check-square-o"></i>
+                    Friends
+                </h3>
+                <p class="center">
+                    If you enjoy playing with certain individuals, you can invite and add players to your marked interests.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <img width="500" alt="File Icons" class="pure-img-responsive" src="SandCourts.jpg">
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+            <h2 class="content-head-ribbon about_us">Tons of possible locations around the valley.</h2>
+
+            <p class="content-head-ribbon about_us">
+                Our team is dedicated to ensuring all decent courts are listed with any possibility of fee's or conflicts presented up front. We also provide links for
+                you to pay to reserve the courts if you are interested in ensuring your play space.
+            </p>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="content-head is-center">Register here and start finding pickup near you.</h2>
+
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+                                                <!--THIS BLOCK IS BROKEN SOMEHOW-->
+                        <label for="name">Name</label>      
+                        <input id="name" type="text" placeholder="Jon Doe" min="0" max="28" required="required"/>
+
+                        <label for="email">Email</label>
+                        <input id="email" type="text" placeholder="JonDoe@email.com" min="0" max="28" required="required"/>
+
+                        <label for="password">New Password</label>
+                        <input id="password" type="password" placeholder="1234" min="0" max="15" required="required"/>
+
+                        <label for="passwordCheck">Verify Password</label>
+                        <input id="passwordCheck" type="password" placeholder="1234" min="0" max="15" required="required"/> 
+
+                        <button type="submit" class="pure-button" onclick="verifyInputs()" href="SignUp2.html">Sign Up</button>
+                        <p id="message"></p>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4 class="center">Contact Us</h4>
+                <p>
+                    This site is created and maintained by a one man army in the process of becoming a web application developer for Microsoft. Here at SandMan LLC, we (I) am very interested
+                    in ensuring a great user experience as well as helping grow the beach volleyball game within central Arizona. If you have ANY suggestions, requests, or issues with the 
+                    site, feel free to email us (me) at <b>avatar.nick@gmail.com</b> and I'll get back to you as soon as possible.
+                </p>
+
+                <h4 class="center">More Information</h4>
+                <p>
+                    This site is in no way sponsored by, or in awareness of, the locations listed within the site. This is purely in the interest of players trying to enjoy 
+                    the wonderful game of beach volleyball (thank you William G. Morgan, 1915, for creating this wonderful sport).
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer l-box is-center">
+        This is a test site not intended for legitament use. . . . YET
+    </div>
+
+</div>
+
+</body>
+</html>
